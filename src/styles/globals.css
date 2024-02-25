@@ -118,3 +118,7 @@ p {
   background-color:#EE7192;
   color: #fffbffff;   
 }
+
+.hero-overflow{
+  height: 115vh;
+}
