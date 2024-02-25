@@ -135,5 +135,9 @@ p {
 }
 
 .about-overflow{
-  height: 80vh;
+  height: 90vh;
+}
+
+.footer-height{
+  height: 50vh;
 }
