@@ -2,32 +2,119 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+/* GLOBAL CSS RESET */
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after {
+  box-sizing: border-box;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+/*
+  2. Remove default margin
+*/
+* {
+  margin: 0;
 }
-
+/*
+  Typographic tweaks!
+  3. Add accessible line-height
+  4. Improve text rendering
+*/
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+/*
+  5. Improve media defaults
+*/
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+/*
+  6. Remove built-in form typography styles
+*/
+input, button, textarea, select {
+  font: inherit;
+}
+/*
+  7. Avoid text overflows
+*/
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+/*
+  8. Create a root stacking context
+*/
+#root, #__next {
+  isolation: isolate;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+
+/* GLOBAL STYLES */
+
+/* Sitewide */
+
+html, body {
+  scroll-behavior: smooth;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Heading 1 */
+h1 {
+  font-weight: 800;
+  font-size: 36px;
+  letter-spacing: -0.04em;
+  line-height: 1.2em;
+  /* margin-bottom: 1.5em; */
+}
+
+/* Heading 2 */
+h2 {
+  font-weight: 600; /* Semibold */
+  font-size: 24px;
+  letter-spacing: -0.03em;
+  line-height: 1.3em;
+  /* margin-bottom: 1.2em; */
+}
+
+/* Heading 3 */
+h3 {
+  font-weight: 500; /* Medium */
+  font-size: 19.2px;
+  letter-spacing: -0.01em;
+  line-height: 1.4em;
+  /* margin-bottom: 1em; */
+}
+
+/* Heading 4 */
+h4 {
+  font-weight: 500; /* Medium */
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 140%;
+  /* margin-bottom: 1em; */
+}
+
+/* Heading 5 */
+h5 {
+  font-weight: 500; /* Medium */
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 140%;
+  /* margin-bottom: 1em; */
+}
+
+/* Paragraph */
+p {
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 140%;
+  /* margin-bottom: 1em; */
+}
+
+.button-primary{
+  background-color:#EE7192;
+  color: #fffbffff;   
 }
