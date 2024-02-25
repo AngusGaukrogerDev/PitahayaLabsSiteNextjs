@@ -7,11 +7,16 @@ const NavigationButton = () => {
 
   const handleToggleMenu = () => {
     setOpenMenu(!openMenu);
+    if(openMenu){
+        document.body.style.overflow = ""
+    }else{
+        document.body.style.overflow = "hidden"
+    }
   };
 
   return (
     <>
-    <div className="fixed right-5 z-[103]">
+    <div className="right-5 z-[103]">
       <button onClick={handleToggleMenu}>
         {openMenu ? (
                 <svg  className="svg-icon h-7 w-7" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">

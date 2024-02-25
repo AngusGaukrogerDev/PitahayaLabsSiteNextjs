@@ -1,6 +1,6 @@
 const About = () => {
     return(
-        <section className="w-full h-screen text-center text-gunmetal flex flex-col justify-start items-center px-3 pt-16 gap-3 bg-snow-900">
+        <section id="about" className="w-full h-screen text-center text-gunmetal flex flex-col justify-start items-center px-3 pt-16 gap-3 bg-snow-900">
             <h2>Building a Learning Platform shouldn’t be hard. Let’s craft an app that students will love!</h2>
             <h4>
                 The process of building an EdTech platform can be overwhelming. The level of technical knowledge required to build a fully functional web application is high and it can take years to learn how to build a quality product.
