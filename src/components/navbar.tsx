@@ -7,7 +7,7 @@ const Navbar: React.FC = () => {
 
     const handleScroll = () => {
         const currentScrollPos = window.scrollY;
-        console.log(currentScrollPos);
+        // console.log(currentScrollPos);
         if (currentScrollPos >= 250) {
             setVisible(false);
         } else {

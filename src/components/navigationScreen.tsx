@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const NavigationScreen = ({ onSelectItem }: { onSelectItem: () => void }) => {
   return (
-    <div className="fixed bg-snow-800 w-full h-screen flex flex-col justify-center items-start gap-10 sm:gap-2 sm:py-3 px-5 z-[98] lg:gap-0 lg:h- xl:px-48 xl:py-32">
+    <div className="fixed left-0 top-0 bg-snow-800 w-full h-screen flex flex-col justify-center items-start gap-10 sm:gap-2 sm:py-3 px-5 z-[98] lg:gap-0 lg:h- xl:px-48 xl:py-32">
       <Link legacyBehavior href="/" as="/">
         <a onClick={onSelectItem} className="">
           <h2>Home</h2>

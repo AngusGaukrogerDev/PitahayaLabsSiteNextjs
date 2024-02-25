@@ -122,3 +122,18 @@ p {
 .hero-overflow{
   height: 115vh;
 }
+
+.hero-overflow-pic{
+  height: 25vh;
+}
+
+.hero-bg-img{
+  background-image: url("https://store.brth.uk/pitahaya/PinkBG1.png");
+  background-size: 100% 100vh;
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-position: center top;
+}
+
+.about-overflow{
+  height: 80vh;
+}
