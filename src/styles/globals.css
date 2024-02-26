@@ -60,10 +60,18 @@ html, body {
   font-family: 'Poppins', sans-serif;
 }
 
+span{
+  font-weight: 700;
+  font-size: 32px;
+  letter-spacing: -0.04em;
+  line-height: 1.2em;
+  /* margin-bottom: 1.5em; */
+}
+
 /* Heading 1 */
 h1 {
-  font-weight: 800;
-  font-size: 36px;
+  font-weight: 700;
+  font-size: 32px;
   letter-spacing: -0.04em;
   line-height: 1.2em;
   /* margin-bottom: 1.5em; */
@@ -72,7 +80,7 @@ h1 {
 /* Heading 2 */
 h2 {
   font-weight: 600; /* Semibold */
-  font-size: 24px;
+  font-size: 28px;
   letter-spacing: -0.03em;
   line-height: 1.3em;
   /* margin-bottom: 1.2em; */
@@ -81,7 +89,7 @@ h2 {
 /* Heading 3 */
 h3 {
   font-weight: 500; /* Medium */
-  font-size: 19.2px;
+  font-size: 21px;
   letter-spacing: -0.01em;
   line-height: 1.4em;
   /* margin-bottom: 1em; */
@@ -120,7 +128,7 @@ p {
 }
 
 .hero-overflow{
-  height: 115vh;
+  height: 125vh;
 }
 
 .hero-overflow-pic{
@@ -129,13 +137,13 @@ p {
 
 .hero-bg-img{
   background-image: url("https://store.brth.uk/pitahaya/PinkBG1.png");
-  background-size: 100% 100vh;
+  background-size: 100% 110vh;
   background-repeat: no-repeat; /* Prevent the image from repeating */
   background-position: center top;
 }
 
 .about-overflow{
-  height: 90vh;
+  height: auto;
 }
 
 .footer-height{

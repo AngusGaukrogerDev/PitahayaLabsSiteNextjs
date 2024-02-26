@@ -32,9 +32,9 @@ const Navbar: React.FC = () => {
     }, [prevScrollPos]);
 
     return (
-        <nav className={`fixed w-full flex flex-row justify-between bg-snow-800 px-5 py-2 mt-3 rounded-xl ${visible ? 'hidden' : 'top-0'}`}>
+        <nav className={`hero-bg-image fixed w-full flex flex-row justify-between bg-snow-800 text-gunmetal-300 px-5 py-2 mt-3 rounded-xl ${visible ? 'hidden' : 'top-0'}`}>
             {/* Additional className to control visibility */}
-            <h2>Pitahaya Labs</h2>
+            <span>Pitahaya Labs</span>
             <NavigationButton />
         </nav>
     );
