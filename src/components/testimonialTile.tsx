@@ -3,11 +3,12 @@ import React from 'react';
 interface TestimonialTileProps {
   quote: string;
   author: string;
+  company: string;
 }
 
-const TestimonialTile: React.FC<TestimonialTileProps> = ({ quote, author }) => {
+const TestimonialTile: React.FC<TestimonialTileProps> = ({ quote, author, company }) => {
   return (
-    <div className="bg-pitahaya-beige w-10/12 h-auto flex flex-col justify-center items-center px-2 py-5 gap-5 text-center">
+    <div className="bg-pitahaya-beige w-10/12 h-auto flex flex-col justify-center items-center rounded-md px-2 py-5 gap-5 text-center">
         <svg width="64" height="65" viewBox="0 0 64 65" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0_316_80)">
             <mask id="mask0_316_80" maskUnits="userSpaceOnUse" x="0" y="0" width="64" height="65">
@@ -24,7 +25,10 @@ const TestimonialTile: React.FC<TestimonialTileProps> = ({ quote, author }) => {
             </defs>
         </svg>
         <h3 className='italic'>{quote}</h3>
-        <h3 className='bg-pitahaya-yellow text-pitahaya-white px-2 py-1 font-bold'>{author}</h3>
+        <div className='flex flex-col justify-center items-center bg-pitahaya-yellow w-56'>
+            <h3 className='text-pitahaya-white px-2 py-1 font-semibold'>{author}</h3>
+            <h3 className='text-pitahaya-white px-2 py-1 font-semibold'>{company}</h3>
+        </div>
     </div>
   );
 }

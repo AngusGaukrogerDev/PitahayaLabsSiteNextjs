@@ -7,13 +7,16 @@ const Testimonial = () => {
            <TestimonialTile 
                 quote="“Pitahaya Labs have been instrumental in handling my web projects for English-speaking clients in the German-speaking region.
                     They possess extensive expertise and manage to articulate complexity in simple terms.”" 
-                author="Sylvia Szulc - BRAND JOURNEY" />
+                author="Sylvia Szulc"
+                company="BRAND JOURNEY" />
            <TestimonialTile 
                 quote="“The developers at Pitahaya Labs are extremely versatile, proficient in a range of technologies that are crucial in today's tech landscape.”" 
-                author="Simona FIlipova -YOKR" />
+                author="Simona FIlipova"
+                company="YOKR" />
            <TestimonialTile 
                 quote="“Working with Angus feels like the technical co-founder you've always needed for your project. Ambitious and friendly, he offers a great sense of direction while delivering exceptional quality results. He comes highly recommended to anybody starting in the EdTech space.”" 
-                author="Mike Armstrong - Bytefinity" />
+                author="Mike Armstrong"
+                company="Bytefinity" />
         </section>
     );
 }
