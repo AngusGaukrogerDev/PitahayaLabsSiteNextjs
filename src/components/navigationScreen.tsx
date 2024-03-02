@@ -14,9 +14,14 @@ const NavigationScreen = ({ onSelectItem }: { onSelectItem: () => void }) => {
           <h2>About</h2>
         </a>
       </Link>
-      <Link legacyBehavior href="/#pitahayalabs" as="/#pitahayalabs">
+      <Link legacyBehavior href="/#ourservice" as="/#ourservice">
         <a onClick={onSelectItem} className="">
-          <h2>Service</h2>
+          <h2>Our Service</h2>
+        </a>
+      </Link>
+      <Link legacyBehavior href="/#testimonials" as="/#testimonials">
+        <a onClick={onSelectItem} className="">
+          <h2>Testimonials</h2>
         </a>
       </Link>
       <Link legacyBehavior href="/#contact" as="/#contact">

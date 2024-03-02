@@ -128,3 +128,9 @@ p {
   background-repeat: no-repeat; /* Prevent the image from repeating */
   background-position: center center;
 }
+
+.services-card-number-text{
+  font-size: 64;
+  font-weight: 900;
+
+}
