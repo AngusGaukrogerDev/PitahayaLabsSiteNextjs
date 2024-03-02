@@ -2,7 +2,11 @@
 import { useState } from "react";
 import NavigationScreen from "./navigationScreen";
 
-const NavigationButton = () => {
+interface NavigationButtonProps {
+  onTouch: () => void;
+}
+
+const NavigationButton: React.FC<NavigationButtonProps> = ({ onTouch }) => {
   const [openMenu, setOpenMenu] = useState(false);
 
   const handleToggleMenu = () => {
@@ -12,6 +16,7 @@ const NavigationButton = () => {
     }else{
         document.body.style.overflow = "hidden"
     }
+    onTouch();
   };
 
   return (

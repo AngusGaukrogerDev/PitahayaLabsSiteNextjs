@@ -2,9 +2,12 @@ import Link from "next/link";
 
 const About = () => {
     return(
-        <section className="w-full about-overflow text-center  flex flex-col justify-start items-center  px-5 gap-5 bg-pitahaya-white">
-            <h2 className="text-pitahaya-black mt-10">Building a Learning Platform <br className="block sm:hidden"/>shouldn’t be hard. <br className="block sm:hidden"/>Let’s craft an app that<br className="block sm:hidden"/> your students will love!</h2>
-            <div className=" h-auto rounded-lg mb-5 px-1 py-4 text-center flex flex-col justify-center items-center gap-3">
+        <section id="about" className="w-full h-auto text-center flex flex-col justify-center items-center px-5 py-5 gap-3 bg-pitahaya-white">
+            <div  className=" w-full flex flex-col items-center justify-center px-5 sm:items-center sm:px-0">
+                <img className="rounded-md w-52 md:w-1/4"  src="https://store.brth.uk/pitahaya/Mug.jpg"/>
+            </div>
+            <h2 className="text-pitahaya-black mt-10">Building a Learning Platform shouldn’t be hard. Let’s craft an app that your students will love!</h2>
+            <div className=" rounded-lg px-1 py-4 text-center flex flex-col justify-center items-center gap-3">
                 <h3 className="text-pitahaya-grey w-68">
                     The process of building an EdTech platform can be overwhelming. The level of technical knowledge required to build a fully functional web application is high and it can take years to learn how to build a quality product.
                 </h3>
