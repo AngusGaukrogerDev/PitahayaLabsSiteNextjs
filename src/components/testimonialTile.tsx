@@ -8,7 +8,7 @@ interface TestimonialTileProps {
 
 const TestimonialTile: React.FC<TestimonialTileProps> = ({ quote, author, company }) => {
   return (
-    <div className=" w-10/12 h-96 flex flex-col justify-center items-center rounded-md px-2 py-5 gap-5 text-center">
+    <div className=" w-10/12 h-auto flex flex-col justify-center items-center rounded-md px-2 py-5 gap-5 text-center">
         <svg width="64" height="65" viewBox="0 0 64 65" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0_316_80)">
             <mask id="mask0_316_80" maskUnits="userSpaceOnUse" x="0" y="0" width="64" height="65">

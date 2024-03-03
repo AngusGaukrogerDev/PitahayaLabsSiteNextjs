@@ -4,6 +4,12 @@ const About = () => {
     return(
         <section id="about" className="w-full h-auto text-center flex flex-row flex-wrap justify-center items-center px-5 py-20 gap-5 bg-pitahaya-white">
             <div  className=" w-full flex flex-col items-center justify-center px-5 sm:items-center sm:px-0">
+                <svg className="absolute z-[5]" width="95" height="91" viewBox="0 0 95 91" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M33.286 0.441233L94.6736 73.7507L0.491901 90.2592L33.286 0.441233Z" fill="#EDBB0C"/>
+                </svg>
+                <svg className="absolute z-[5]" width="109" height="94" viewBox="0 0 109 94" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M54.5 0L75.1745 50.5636L108.627 93.75L54.5 86.3729L0.373413 93.75L33.8255 50.5636L54.5 0Z" fill="#EDBB0C"/>
+                </svg>
                 <img className="rounded-md w-52 md:w-1/4"  src="https://store.brth.uk/pitahaya/Mug.jpg"/>
             </div>
             <h2 className="text-pitahaya-black mt-10">Building a Learning Platform shouldn’t be hard. Let’s craft an app that your students will love!</h2>

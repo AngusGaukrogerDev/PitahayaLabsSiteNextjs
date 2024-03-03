@@ -21,7 +21,7 @@ const config: Config = {
       'pitahaya-beige': { DEFAULT: '#e4ddd5', 100: '#362d22', 200: '#6b5944', 300: '#9f8568', 400: '#c1b19e', 500: '#e4ddd5', 600: '#e9e3dc', 700: '#eeeae5', 800: '#f4f1ee', 900: '#f9f8f6' }, 
       'pitahaya-yellow-2': { DEFAULT: '#efd43f', 100: '#383005', 200: '#6f6009', 300: '#a7900e', 400: '#dfc012', 500: '#efd43f', 600: '#f2dd64', 700: '#f6e68b', 800: '#f9eeb2', 900: '#fcf7d8' }, 
       'pitahaya-black': { DEFAULT: '#010101', 100: '#000000', 200: '#000000', 300: '#000000', 400: '#000000', 500: '#010101', 600: '#333333', 700: '#666666', 800: '#999999', 900: '#cccccc' },
-      'pitahaya-white': { DEFAULT: '#f8fbfc', 100: '#1e3c46', 200: '#3c788c', 300: '#6cabc0', 400: '#b2d3de', 500: '#f8fbfc', 600: '#f9fcfd', 700: '#fbfdfd', 800: '#fcfdfe', 900: '#fefefe' }
+      'pitahaya-white': { DEFAULT: '#FBFEFB', 100: '#1e3c46', 200: '#3c788c', 300: '#6cabc0', 400: '#b2d3de', 500: '#f8fbfc', 600: '#f9fcfd', 700: '#fbfdfd', 800: '#fcfdfe', 900: '#fefefe' }
     }
     }
   },

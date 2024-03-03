@@ -81,7 +81,7 @@ span{
 h1 {
   font-weight: 800;
   font-size: 40px;
-  letter-spacing: -0.04em;
+  letter-spacing: -0.02em;
   line-height: 1.2em;
 
   /* margin-bottom: 1.5em; */
@@ -133,7 +133,7 @@ p {
 }
 
 .hero-image{
-  background-image: url("https://store.brth.uk/pitahaya/Mobile360625y1.jpg");
+  background-image: url("https://store.brth.uk/pitahaya/Mobile360625y3.jpg");
   background-size: 100% 110vh;
   background-repeat: no-repeat; /* Prevent the image from repeating */
   background-position: center center;
