@@ -68,19 +68,29 @@ span{
   /* margin-bottom: 1.5em; */
 }
 
+.logo {
+  font-weight: 800;
+  font-size: 32px;
+  letter-spacing: -0.04em;
+  line-height: 1.2em;
+
+  /* margin-bottom: 1.5em; */
+}
+
 /* Heading 1 */
-h1, .logo {
-  font-weight: 900;
+h1 {
+  font-weight: 800;
   font-size: 40px;
   letter-spacing: -0.04em;
   line-height: 1.2em;
+
   /* margin-bottom: 1.5em; */
 }
 
 /* Heading 2 */
 h2 {
   font-weight: 600; /* Semibold */
-  font-size: 28px;
+  font-size: 22px;
   letter-spacing: -0.03em;
   line-height: 1.3em;
   /* margin-bottom: 1.2em; */
@@ -89,7 +99,7 @@ h2 {
 /* Heading 3 */
 h3 {
   font-weight: 500; /* Medium */
-  font-size: 21px;
+  font-size: 19px;
   letter-spacing: -0.01em;
   line-height: 1.4em;
   /* margin-bottom: 1em; */
@@ -123,7 +133,7 @@ p {
 }
 
 .hero-image{
-  background-image: url("https://store.brth.uk/pitahaya/Mobile360625.jpg");
+  background-image: url("https://store.brth.uk/pitahaya/Mobile360625y1.jpg");
   background-size: 100% 110vh;
   background-repeat: no-repeat; /* Prevent the image from repeating */
   background-position: center center;

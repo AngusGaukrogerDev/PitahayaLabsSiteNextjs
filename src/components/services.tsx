@@ -2,7 +2,7 @@ import ServicesTile from "./servicesTile";
 
 const Services = () => {
     return(
-        <section id="ourservice" className="w-full h-auto flex flex-col justify-center items-center gap-5 bg-pitahaya-white px-2 py-5">
+        <section id="ourservice" className="w-full h-auto flex flex-col justify-center items-center gap-10 bg-pitahaya-white px-2 py-20">
             <h2 className="text-pitahaya-black">Our 3 Step Service</h2>
             <ServicesTile 
                 number={1} 

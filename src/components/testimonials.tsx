@@ -2,8 +2,11 @@ import TestimonialTile from "./testimonialTile";
 
 const Testimonial = () => {
     return(
-        <section id="testimonials" className="w-full h-auto flex flex-col justify-center items-center gap-3 bg-pitahaya-white px-2 py-5">
-            <h2 className="text-pitahaya-black text-center">What our clients say about us</h2>
+        <section id="testimonials" className="w-full h-auto flex flex-col justify-center items-center gap-10 bg-pitahaya-white px-2 py-20">
+            <div className="flex flex-col justify-center items-center gap-5">
+                <h2>Testimonials</h2>
+                <h3 className="text-pitahaya-grey text-center">What our clients say about us</h3>
+            </div>
            <TestimonialTile 
                 quote="“Pitahaya Labs have been instrumental in handling my web projects for English-speaking clients in the German-speaking region.
                     They possess extensive expertise and manage to articulate complexity in simple terms.”" 

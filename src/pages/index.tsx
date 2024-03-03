@@ -12,13 +12,13 @@ import { useEffect } from "react";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
-  useEffect(()=>{
-	  (async function () {
-		const cal = await getCalApi("https://cnnct.uk/embed/embed.js");
-		cal("floatingButton", {"calLink":"pitahayalabs/initial-learning-platform-discussion","calOrigin":"https://cnnct.uk","buttonText":"Book a call!","hideButtonIcon":true});
-		cal("ui", {"styles":{"branding":{"brandColor":"#010101"}},"hideEventTypeDetails":false,"layout":"month_view"});
-	  })();
-	}, [])
+  // useEffect(()=>{
+	//   (async function () {
+	// 	const cal = await getCalApi("https://cnnct.uk/embed/embed.js");
+	// 	cal("floatingButton", {"calLink":"pitahayalabs/initial-learning-platform-discussion","calOrigin":"https://cnnct.uk","buttonText":"Book a call!","hideButtonIcon":true});
+	// 	cal("ui", {"styles":{"branding":{"brandColor":"#2C2C2D"}},"hideEventTypeDetails":false,"layout":"month_view"});
+	//   })();
+	// }, [])
   return (
     <>
       <Navbar />
