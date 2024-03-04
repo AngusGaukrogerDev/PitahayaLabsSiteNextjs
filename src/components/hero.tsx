@@ -5,7 +5,7 @@ const Hero = () => {
     return(
         <>
             <section id="home" className="hero-image w-full h-screen flex flex-col justify-center items-center pt-10">
-                <div className="h-screen w-full px-5 md:px-28 lg:px-32 gap-4 flex flex-col justify-center items-center text-center sm:text-center sm:items-center">
+                <div className="h-screen w-full px-5 md:px-28 lg:px-32 xl:px-44 gap-4 flex flex-col justify-center items-center text-center sm:text-center sm:items-center">
                     <h1 className="text-pitahaya-black">Web Development Services for EdTech Startups</h1>
                     <h3 className="text-pitahaya-grey w-10/12">The Dev Team you've been searching for to bring your Learning Platform to life.</h3>
                     <Link legacyBehavior href="/#contact" as="/#contact" >
