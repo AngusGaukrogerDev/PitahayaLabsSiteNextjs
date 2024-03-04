@@ -95,7 +95,7 @@ h2 {
 }
 
 /* Heading 3 */
-h3 {
+h3, label {
   font-weight: 500; /* Medium */
   font-size: 1.1em;
   letter-spacing: -0.01em;
@@ -128,7 +128,7 @@ h5 {
   h2 {
     font-size: 2em;
   }
-  h3 {
+  h3,label {
     font-size: 1.3em;
   }
 }
@@ -141,7 +141,7 @@ h5 {
   h2 {
     font-size: 2.5em;
   }
-  h3 {
+  h3, label {
     font-size: 1.4em;
   }
 }
@@ -174,4 +174,8 @@ p {
     -ms-transform: rotate(-90deg);
     transform: rotate(-90deg);
     z-index: 0;
+}
+
+.footer-height{
+  height: 50vh;
 }
