@@ -21,7 +21,7 @@ const NavigationButton: React.FC<NavigationButtonProps> = ({ onTouch }) => {
 
   return (
     <>
-    <div className="flex lg:hidden flex-col items-center justify-center pb-1 z-[103]">
+    <div className="flex xl:hidden flex-col items-center justify-center pb-1 z-[103]">
       <button onClick={handleToggleMenu}>
         {openMenu ? (
                 <svg stroke="#010101"  className="svg-icon h-10 w-10" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
