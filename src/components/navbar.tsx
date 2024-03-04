@@ -10,7 +10,7 @@ const Navbar: React.FC = () => {
     }
 
     return (
-        <nav className={`fixed w-full h-16 flex flex-row justify-between bg-pitahaya-white text-pitahaya-black px-3 py-2 drop-shadow-md  z-10 `}>
+        <nav className={`fixed w-full h-16 md:h-20 flex flex-row justify-between items-center bg-pitahaya-white text-pitahaya-black px-3 py-2 drop-shadow-md  z-10 `}>
             <h2 className="logo">Pitahaya</h2>
             <NavigationButton onTouch={handleNavVisibility} />
         </nav>

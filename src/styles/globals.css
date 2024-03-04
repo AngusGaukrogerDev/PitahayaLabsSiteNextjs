@@ -80,28 +80,26 @@ span{
 /* Heading 1 */
 h1 {
   font-weight: 800;
-  font-size: 40px;
+  font-size: 2.25em;
   letter-spacing: -0.02em;
-  line-height: 1.2em;
-
-  /* margin-bottom: 1.5em; */
+  line-height: 1.2;
 }
 
 /* Heading 2 */
 h2 {
   font-weight: 600; /* Semibold */
-  font-size: 22px;
+  font-size: 1.5em;
   letter-spacing: -0.03em;
-  line-height: 1.3em;
+  line-height: 1.3;
   /* margin-bottom: 1.2em; */
 }
 
 /* Heading 3 */
 h3 {
   font-weight: 500; /* Medium */
-  font-size: 19px;
+  font-size: 1.1em;
   letter-spacing: -0.01em;
-  line-height: 1.4em;
+  line-height: 1.4;
   /* margin-bottom: 1em; */
 }
 
@@ -123,10 +121,35 @@ h5 {
   /* margin-bottom: 1em; */
 }
 
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  h1 {
+    font-size: 2.5em;
+  }
+  h2 {
+    font-size: 2em;
+  }
+  h3 {
+    font-size: 1.5em;
+  }
+}
+
+/* Desktop Styles */
+@media screen and (min-width: 1024px) {
+  h1 {
+    font-size: 3em;
+  }
+  h2 {
+    font-size: 2.5em;
+  }
+  h3 {
+    font-size: 1.75em;
+  }
+}
+
 /* Paragraph */
 p {
   font-weight: normal;
-  font-size: 14px;
+  font-size: calc(14px + 0.390625vw);;
   letter-spacing: 0;
   line-height: 140%;
   /* margin-bottom: 1em; */
