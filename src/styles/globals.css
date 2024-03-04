@@ -80,7 +80,7 @@ span{
 /* Heading 1 */
 h1 {
   font-weight: 800;
-  font-size: 2.25em;
+  font-size: 2em;
   letter-spacing: -0.02em;
   line-height: 1.2;
 }
@@ -129,7 +129,7 @@ h5 {
     font-size: 2em;
   }
   h3 {
-    font-size: 1.5em;
+    font-size: 1.3em;
   }
 }
 
@@ -142,7 +142,7 @@ h5 {
     font-size: 2.5em;
   }
   h3 {
-    font-size: 1.75em;
+    font-size: 1.4em;
   }
 }
 
