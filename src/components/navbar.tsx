@@ -2,7 +2,6 @@ import React, {useState} from "react";
 import NavigationButton from "./navigationButton";
 
 import Link from "next/link";
-import NavbarDesktop from "./navbarDesktop";
 
 const Navbar: React.FC = () => {
 
@@ -13,7 +12,7 @@ const Navbar: React.FC = () => {
     }
 
     return (
-        <nav className={`fixed w-full h-16 md:h-20 flex flex-row justify-between xl:justify-evenly items-center bg-pitahaya-white text-pitahaya-black px-3 xl:px-auto  py-2 drop-shadow-md z-10 `}>
+        <nav className={`fixed w-full h-20 md:h-20 flex flex-row justify-between xl:justify-between items-center bg-pitahaya-white text-pitahaya-black px-5 xl:px-10  py-2 drop-shadow-md z-10 `}>
             <Link legacyBehavior href="/" as="/">
                 <h2 className="logo">Pitahaya</h2>
             </Link>
