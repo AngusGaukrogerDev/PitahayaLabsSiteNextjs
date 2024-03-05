@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const About = () => {
     return(
@@ -10,7 +11,7 @@ const About = () => {
                 <svg className="absolute mb-24 mr-48 z-[5] rotate-shape floating2" width="109" height="94" viewBox="0 0 109 94" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M54.5 0L75.1745 50.5636L108.627 93.75L54.5 86.3729L0.373413 93.75L33.8255 50.5636L54.5 0Z" fill="#EDBB0C"/>
                 </svg>
-                <img className="rounded-md w-52 md:w-1/4"  src="https://store.brth.uk/pitahaya/Mug.jpg"/>
+                <Image className="rounded-md w-52 md:w-1/4"  src="https://store.brth.uk/pitahaya/Mug.jpg" alt="Founder of Pitahaya Labs - Angus Gaukroger"/>
             </div>
             <div className="flex flex-col justify-center items-center gap-5">
                 <h2 className="text-pitahaya-black mt-10">Building a Learning Platform shouldn’t be hard. Let’s craft an app that your students will love!</h2>
