@@ -27,7 +27,7 @@ const TestimonialTile: React.FC<TestimonialTileProps> = ({ quote, author, compan
         <div className='flex flex-col justify-center items-center xl:h-72 xl:w-96 xl:px-2'>
           <h3 className='italic text-pitahaya-grey-100 '>{quote}</h3>
         </div>
-        <h3 className='bg-pitahaya-black text-pitahaya-white rounded-md px-2 py-1 font-semibold'>{author} - {company}</h3>
+        <h3 className='bg-pitahaya-yellow text-pitahaya-white rounded-md px-2 py-1 font-semibold'>{author} - {company}</h3>
 {/* 
         <div className='flex flex-col justify-center items-center bg-pitahaya-yellow  rounded-md'>
             <h3 className='text-pitahaya-white px-2 py-1 font-semibold'></h3>

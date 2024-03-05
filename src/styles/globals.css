@@ -152,6 +152,7 @@ h5 {
   .services-card-height-md{
     height: 60vh;
   }
+
 }
 
 /* Paragraph */
@@ -177,7 +178,9 @@ p {
     background-repeat: no-repeat; /* Prevent the image from repeating */
     background-position: center center;
   }
-
+  .floating {
+    animation: floatAnimXL 12s ease-in-out infinite;
+  }
 }
 
 .services-card-number-text{
@@ -218,6 +221,21 @@ p {
 
   100% {
     transform: scale(0.6);
+    transform: rotate(15deg);
+  }
+}
+@keyframes floatAnimXL {
+  0% {
+    transform: scale(2);
+    transform: rotate(15deg);
+  }
+
+  50% {
+    transform: scale(1.5);
+  }
+
+  100% {
+    transform: scale(2);
     transform: rotate(15deg);
   }
 }
