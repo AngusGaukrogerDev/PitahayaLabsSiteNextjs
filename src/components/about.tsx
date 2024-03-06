@@ -4,7 +4,7 @@ import Image from "next/image";
 const About = () => {
     return(
         <section id="about" className="w-full h-auto text-center flex flex-col xl:flex-row justify-center items-center px-5 md:px-24 xl:px-24 py-20 gap-5 bg-pitahaya-white">
-            <div className=" w-full flex flex-col items-center justify-center px-5 xl:px-0 sm:items-center sm:px-0 xl:ml-20">
+            <div className=" w-full flex flex-col items-center justify-center px-5 xl:px-0 sm:items-center sm:px-0 xl:ml-20 transition duration-300 transform hover:scale-105">
                 <svg className="absolute z-[5] mt-36 ml-48 md:mt-36 md:ml-52 lg:mt-48 lg:ml-64 xl:mt-80 xl:ml-80 rotate-triangle floating" width="95" height="91" viewBox="0 0 95 91" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M33.286 0.441233L94.6736 73.7507L0.491901 90.2592L33.286 0.441233Z" fill="#ECBA0B"/>
                 </svg>
@@ -15,16 +15,16 @@ const About = () => {
                 <img className="rounded-md w-96 hidden xl:flex " src="https://store.brth.uk/pitahaya/Mug.jpg" alt="Founder of Pitahaya Labs - Angus Gaukroger"/>
             </div>
             <div className="flex flex-col justify-center items-center gap-5 xl:gap-3 xl:px-0">
-                <h2 className="text-pitahaya-black xl:w-10/12">Building a Learning Platform shouldn’t be hard. Let’s craft an app that your students will love!</h2>
+                <h2 className="text-pitahaya-black xl:w-10/12 transition duration-300 transform hover:scale-105">Building a Learning Platform shouldn’t be hard. Let’s craft an app that your students will love!</h2>
                 <div className=" rounded-lg px-3 sm:px-5 py-4 text-center flex flex-col justify-center items-center gap-5 xl:w-10/12">
-                    <h3 className="text-pitahaya-grey ">
+                    <h3 className="text-pitahaya-grey transition duration-300 transform hover:scale-105">
                         The process of building an EdTech platform can be overwhelming. The level of technical knowledge required to build a fully functional web application is high and it can take years to learn how to build a quality product.
                     </h3>
-                    <h3 className="text-pitahaya-grey ">       
+                    <h3 className="text-pitahaya-grey transition duration-300 transform hover:scale-105">       
                         It’s time set yourself apart with a fast, modern and efficient EdTech application, that students will genuinely enjoy using.
                     </h3>
                     <Link legacyBehavior href="/#ourservice" as="/#ourservice">
-                        <button className="flex flex-row justify-center items-center gap-2 hover:cursor-pointer">
+                        <button className="flex flex-row justify-center items-center gap-2 hover:cursor-pointer transition duration-300 transform hover:scale-110">
                             <h3 className="text-pitahaya-yellow">
                                 Find out how
                             </h3>

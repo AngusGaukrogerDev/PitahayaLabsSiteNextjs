@@ -4,8 +4,8 @@ const Testimonial = () => {
     return(
         <section id="testimonials" className="w-full h-auto flex flex-col justify-center items-center gap-10 bg-pitahaya-white px-2 md:px-24 py-20">
             <div className="flex flex-col justify-center items-center gap-5">
-                <h2>Testimonials</h2>
-                <h3 className="text-pitahaya-grey text-center">What our clients are saying about us.</h3>
+                <h2 className="transition duration-300 transform hover:scale-105">Testimonials</h2>
+                <h3 className="text-pitahaya-grey text-center transition duration-300 transform hover:scale-105">What our clients are saying about us.</h3>
             </div>
             <div className="h-full flex flex-col xl:flex-row justify-center md:items-center items-center gap-10 xl:gap-2">
                 <TestimonialTile 

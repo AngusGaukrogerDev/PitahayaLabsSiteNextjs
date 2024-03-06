@@ -28,7 +28,7 @@ const BookACallStickyButton: React.FC = () => {
     <>
       {isVisible && (
         <a
-          className="cursor-pointer sticky bottom-2 md:bottom-5 right-0 self-end justify-self-end bg-pitahaya-black z-[9] w-16 md:w-40 h-16 mr-2 md:mr-5 font-bold text-pitahaya-white rounded-md flex flex-col justify-center items-center"
+          className="cursor-pointer sticky bottom-2 md:bottom-5 right-0 self-end justify-self-end bg-pitahaya-black z-[9] w-16 md:w-40 h-16 mr-2 md:mr-5 font-bold text-pitahaya-white rounded-md flex flex-col justify-center items-center transition duration-300 transform hover:scale-110"
           target="_blank"
           href="https://cnnct.uk/pitahayalabs/initial-learning-platform-discussion"
         >
