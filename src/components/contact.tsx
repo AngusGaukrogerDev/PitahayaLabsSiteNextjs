@@ -26,7 +26,7 @@ const Contact = () => {
       setSubmitting(true);
       setEmailFailedToSend(false);
       setEmailSent(false);
-      const response = await fetch(`pitahaya-labs-site-nextjs.vercel.app/api/sendEmail`, {
+      const response = await fetch(`/api/sendEmail`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
