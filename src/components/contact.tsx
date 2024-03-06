@@ -1,23 +1,65 @@
-import Link from "next/link";
-import Image from "next/image";
-
-import { useForm, SubmitHandler } from "react-hook-form"
+import Link from 'next/link';
+import Image from 'next/image';
+import { useState } from 'react';
+import { useForm, SubmitHandler } from 'react-hook-form';
 
 type Inputs = {
   name: string;
   email: string;
   message: string;
-}
+};
 
 const Contact = () => {
-    const {
-        register,
-        handleSubmit,
-        watch,
-        formState: { errors },
-      } = useForm<Inputs>();
-      const onSubmit: SubmitHandler<Inputs> = (data) => console.log(data)
-    return(
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+    reset,
+  } = useForm<Inputs>();
+
+  const [submitting, setSubmitting] = useState<boolean>(false);
+  const [emailSent, setEmailSent] = useState<boolean>(false);
+  const [emailFailedToSend, setEmailFailedToSend] = useState<boolean>(false);
+
+  const onSubmit: SubmitHandler<Inputs> = async (data) => {
+    try {
+      setSubmitting(true);
+      setEmailFailedToSend(false);
+      setEmailSent(false);
+      const response = await fetch('/api/sendEmail', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data),
+      });
+
+      if (response.ok) {
+        console.log('Email sent successfully');
+        reset();
+        setEmailSent(true);
+
+        setTimeout(() => {
+            setEmailSent(false);
+          }, 10000);
+      } else {
+        console.error('Failed to send email');
+        setEmailFailedToSend(true);
+        setTimeout(() => {
+            setEmailFailedToSend(false);
+          }, 10000);
+      }
+    } catch (error) {
+      console.error('Error sending email', error);
+      setEmailFailedToSend(true);
+      setTimeout(() => {
+        setEmailFailedToSend(false);
+      }, 10000);
+    }
+    setSubmitting(false);
+  };
+
+  return (
         <section id="contact" className="w-full h-auto flex flex-col xl:flex-row justify-center items-center gap-12 bg-pitahaya-white text-center py-20 px-5 md:px-24">   
             <div className="w-full sm:w-3/4 md:w-2/3 xl:w-1/2 h-1/2 md:h-full flex flex-col justify-center items-center gap-5 px-3 sm:px-5 py-5 border-2 xl:border-0 border-pitahaya-grey-900 rounded-md">
                 <h2 className="text-pitahaya-black">Book a call with us</h2>
@@ -55,10 +97,17 @@ const Contact = () => {
                     </div>
                     <textarea className="bg-pitahaya-white w-full rounded-md h-36 border-2 border-pitahaya-grey pl-2 pt-1" placeholder="What would you like to tell us?" {...register("message", { required: true })} />
                 </div>
-                <button className="bg-pitahaya-black text-pitahaya-white px-4 py-2 rounded-md w-36 sm:w-56 md:w-56 h-14  hover:cursor-pointer hover:bg-pitahaya-yellow" type="submit">
+                <button className="bg-pitahaya-black text-pitahaya-white px-4 py-2 rounded-md w-36 sm:w-56 md:w-56 h-14  hover:cursor-pointer hover:bg-pitahaya-yellow" disabled={submitting} type="submit">
                     <h3>Submit</h3>
                 </button>
-
+                <div className='flex flex-col justify-center items-center gap-3'>
+                    {errors.name && <h3 className="text-pitahaya-grey">Name is required</h3>}
+                    {errors.email && <h3 className="text-pitahaya-grey">Email is required</h3>}
+                    {errors.message && <h3 className="text-pitahaya-grey">Message is required</h3>}
+                    {emailSent ? <h3 className="text-pitahaya-grey">Email Sent Successfully</h3> : ""}
+                    {emailFailedToSend ? <h3 className="text-pitahaya-grey">Email Failed to send</h3> : ""}
+                </div>
+               
             </form>
         </section>
     );
