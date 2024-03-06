@@ -66,7 +66,7 @@ const Contact = () => {
                 <h3>Get your project kicked off with a meeting to discuss the goals of your platform and how we can make it happen! </h3>
                 {/* <img src="https://dummyimage.com/300x100/808080/F8FBFC.jpg&text=Pitahaya+Labs+logo" /> */}
                 <a target="_blank" href="https://cnnct.uk/pitahayalabs/initial-learning-platform-discussion" >
-                    <button className="bg-pitahaya-yellow text-pitahaya-white px-4 py-2 rounded-md w-36 sm:w-56 md:w-56 h-14  hover:cursor-pointer hover:bg-pitahaya-yellow">
+                    <button className="bg-pitahaya-yellow text-pitahaya-white px-4 py-2 rounded-md w-36 sm:w-56 md:w-56 h-14  hover:cursor-pointer">
                         <h3>Book a call!</h3>
                     </button>                  
                 </a>
@@ -97,7 +97,7 @@ const Contact = () => {
                     </div>
                     <textarea className="bg-pitahaya-white w-full rounded-md h-36 border-2 border-pitahaya-grey pl-2 pt-1" placeholder="What would you like to tell us?" {...register("message", { required: true })} />
                 </div>
-                <button className="bg-pitahaya-black text-pitahaya-white px-4 py-2 rounded-md w-36 sm:w-56 md:w-56 h-14  hover:cursor-pointer hover:bg-pitahaya-yellow" disabled={submitting} type="submit">
+                <button className="bg-pitahaya-black text-pitahaya-white px-4 py-2 rounded-md w-36 sm:w-56 md:w-56 h-14  hover:cursor-pointer" disabled={submitting} type="submit">
                     <h3>Submit</h3>
                 </button>
                 <div className='flex flex-col justify-center items-center gap-3'>

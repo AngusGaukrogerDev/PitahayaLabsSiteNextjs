@@ -8,6 +8,7 @@ import Testimonial from "@/components/testimonials";
 import { Inter } from "next/font/google";
 import { getCalApi } from "@calcom/embed-react";
 import { useEffect } from "react";
+import BookACallStickyButton from "@/components/bookACallButton";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,12 +25,16 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero />
-        <About />
-        <Services />
-        <Testimonial />
-        <Contact />
-        <Footer />
+        <div className="w-full h-auto flex flex-col bg-pitahaya-white">
+          <About />
+          <Services />
+          <Testimonial />
+          <Contact />
+          <Footer />
+          <BookACallStickyButton />
+        </div>
       </main>
+        
     </>  
   );
 }

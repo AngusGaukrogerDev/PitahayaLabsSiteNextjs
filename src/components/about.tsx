@@ -33,9 +33,9 @@ const About = () => {
                             </svg>
                         </button>
                     </Link>
+
                 </div>
-            </div>
-            
+            </div>            
         </section>
     );
 }
