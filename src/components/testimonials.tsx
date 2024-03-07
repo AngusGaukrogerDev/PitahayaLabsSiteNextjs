@@ -12,7 +12,7 @@ const Testimonial = () => {
                         quote="“Pitahaya Labs have been instrumental in handling my web projects for English-speaking clients in the German-speaking region.
                             They possess extensive expertise and manage to articulate complexity in simple terms.”" 
                         author="Sylvia Szulc"
-                        company="Brand Journey" />
+                        company="BRAND JOURNEY®" />
                 <TestimonialTile 
                         quote="“The developers at Pitahaya Labs are extremely versatile, proficient in a range of technologies that are crucial in today's tech landscape. Their ability to leverage frameworks like Next.js has significantly enhanced our project's user interface and overall user experience.”" 
                         author="Simona Filipova"
