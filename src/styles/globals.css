@@ -144,10 +144,10 @@ h5 {
     font-size: 3em;
   }
   h2 {
-    font-size: 2.5em;
+    font-size: 2.2em;
   }
   h3, label {
-    font-size: 1.4em;
+    font-size: 1.2em;
   }
   .services-card-height-md{
     height: 60vh;
@@ -165,7 +165,7 @@ p {
 }
 
 .hero-image{
-  background-image: url("https://store.brth.uk/pitahaya/Mobile360625y3.jpg");
+  background-image: url("https://store.brth.uk/pitahaya/Mobile360625fin.jpg");
   background-size: 100% 110vh;
   background-repeat: no-repeat; /* Prevent the image from repeating */
   background-position: center center;
@@ -173,7 +173,7 @@ p {
 
 @media screen and (min-width: 768px) {
   .hero-image{
-    background-image: url("https://store.brth.uk/pitahaya/Desktop1280720.jpg");
+    background-image: url("https://store.brth.uk/pitahaya/Desktop1280720fin.jpg");
     background-size: 100% 110vh;
     background-repeat: no-repeat; /* Prevent the image from repeating */
     background-position: center center;
