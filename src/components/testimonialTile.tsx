@@ -8,7 +8,7 @@ interface TestimonialTileProps {
 
 const TestimonialTile: React.FC<TestimonialTileProps> = ({ quote, author, company }) => {
   return (
-    <div className=" w-10/12 md:w-1/2 xl:w-1/3 h-auto flex flex-col justify-center items-center rounded-md px-2 py-5 gap-5 text-center transition duration-300 transform hover:scale-105">
+    <div className=" w-10/12 md:w-1/2 xl:w-1/3 h-auto flex flex-col justify-center items-center rounded-md px-2 py-5 gap-5 text-center">
         <svg width="64" height="65" viewBox="0 0 64 65" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0_316_80)">
             <mask id="mask0_316_80" maskUnits="userSpaceOnUse" x="0" y="0" width="64" height="65">
@@ -25,13 +25,9 @@ const TestimonialTile: React.FC<TestimonialTileProps> = ({ quote, author, compan
             </defs>
         </svg>
         <div className='flex flex-col justify-center items-center xl:h-72 xl:w-96 xl:px-2'>
-          <h3 className='italic text-pitahaya-grey-100 '>{quote}</h3>
+          <h3 className='italic text-pitahaya-grey '>{quote}</h3>
         </div>
         <h3 className='bg-pitahaya-yellow text-pitahaya-white rounded-md px-2 py-1 font-semibold'>{author} - {company}</h3>
-{/* 
-        <div className='flex flex-col justify-center items-center bg-pitahaya-yellow  rounded-md'>
-            <h3 className='text-pitahaya-white px-2 py-1 font-semibold'></h3>
-        </div> */}
     </div>
   );
 }
