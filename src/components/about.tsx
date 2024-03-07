@@ -17,7 +17,7 @@ const About = () => {
                 <DevelopmentLottie />
             </div>
             <div className="flex flex-col justify-center items-center gap-5 xl:gap-3 xl:px-0">
-                <h2 className="text-pitahaya-black xl:w-10/12 fade-in-right">Building a Learning Platform shouldn’t be hard. Let’s craft an app that your students will love!</h2>
+                <h2 className="text-pitahaya-black xl:w-10/12 ">Building a Learning Platform shouldn’t be hard. Let’s craft an app that your students will love!</h2>
                 <div className=" rounded-lg px-3 sm:px-5 py-4 text-center flex flex-col justify-center items-center gap-5 xl:w-10/12">
                     <h3 className="text-pitahaya-grey">
                         The process of building an EdTech platform can be overwhelming. The level of technical knowledge required to build a fully functional web application is high and it can take years to learn how to build a quality product.

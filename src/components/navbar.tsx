@@ -14,7 +14,7 @@ const Navbar: React.FC = () => {
     return (
         <nav className={`fixed w-full h-20 md:h-20 flex flex-row justify-between xl:justify-between items-center bg-pitahaya-white text-pitahaya-black px-5 xl:px-16  py-2  z-10 `}>
             <Link legacyBehavior href="/" as="/">
-                <h2 className="logo cursor-pointer fade-in-left">Pitahaya</h2>
+                <h2 className="logo cursor-pointer">Pitahaya</h2>
             </Link>
             <div className="hidden xl:flex flex-row items-center">
                 <div className="flex flex-row items-center gap-16 font-bold">
