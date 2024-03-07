@@ -166,18 +166,19 @@ p {
 }
 
 .hero-image{
-  background-image: url("https://store.brth.uk/pitahaya/Mobile360625fin.jpg");
-  background-size: 100% 110vh;
+  background-image: url("https://store.brth.uk/pitahaya/MobilePatternSmall1.jpg");
+  background-size: 100% 100vh;
   background-repeat: no-repeat; /* Prevent the image from repeating */
   background-position: center center;
 }
 
 @media screen and (min-width: 768px) {
   .hero-image{
-    background-image: url("https://store.brth.uk/pitahaya/Desktop1280720fin.jpg");
-    background-size: 100% 110vh;
+    background-image: url("https://store.brth.uk/pitahaya/Desktop1280720PatternSmall.jpg");
+    background-size: 100% 100vh;
     background-repeat: no-repeat; /* Prevent the image from repeating */
     background-position: center center;
+    
   }
   .floating {
     animation: floatAnimXL 12s ease-in-out infinite;
