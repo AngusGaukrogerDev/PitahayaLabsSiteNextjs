@@ -71,7 +71,9 @@ const Contact = () => {
                         <h3>Book now</h3>
                     </button>                  
                 </a>
-                <CallLottie />
+                <div className='flex flex-col justify-center items-center xl:w-4/5 xl:h-4/5'>
+                  <CallLottie />
+                </div>
             </div>
             <form 
                 className="border-2 xl:border-0 md:h-auto w-full sm:w-3/4 md:w-2/3 xl:w-1/2 flex flex-col justify-center items-center gap-5 px-3 sm:px-5 xl:px-24 py-5 rounded-md border-pitahaya-grey-900"

@@ -3,7 +3,7 @@ import animationData from "@/lotties/Lottie.json";
 
 const DevelopmentLottie: React.FC = () => {
   return (
-    <Lottie animationData={animationData} loop={true} height={400} width={400} />
+    <Lottie animationData={animationData} loop={true} height={500} width={500} />
   );
 };
 
