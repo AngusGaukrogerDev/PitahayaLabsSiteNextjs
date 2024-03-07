@@ -62,7 +62,7 @@ const Contact = () => {
 
   return (
         <section id="contact" className="w-full h-auto flex flex-col xl:flex-row justify-center items-center xl:items-start gap-12 bg-pitahaya-white text-center py-20 px-5 md:px-24">   
-            <div className="w-full sm:w-3/4 md:w-2/3 xl:w-1/2 h-1/2 md:h-auto flex flex-col justify-center items-center gap-5 xl:gap-3 px-3 sm:px-5 py-5 border-2 xl:border-0 border-pitahaya-grey-900 rounded-md">
+            <div className="w-full sm:w-3/4 md:w-2/3 xl:w-1/2 h-1/2 md:h-auto flex flex-col justify-center items-center gap-5 xl:gap-3 px-3 sm:px-5 py-5 border-2 border-pitahaya-grey-900 rounded-md">
                 <h2 className="text-pitahaya-black ">Let&apos;s arrange a meeting</h2>
                 <h3 className='text-pitahaya-grey'>Get your project kicked off with a meeting to discuss the goals of your platform and how we can make it happen! </h3>
                 {/* <img src="https://dummyimage.com/300x100/808080/F8FBFC.jpg&text=Pitahaya+Labs+logo" /> */}
@@ -76,7 +76,7 @@ const Contact = () => {
                 </div>
             </div>
             <form 
-                className="border-2 xl:border-0 md:h-auto w-full sm:w-3/4 md:w-2/3 xl:w-1/2 flex flex-col justify-center items-center gap-5 px-3 sm:px-5 xl:px-24 py-5 rounded-md border-pitahaya-grey-900"
+                className="border-2 md:h-auto w-full sm:w-3/4 md:w-2/3 xl:w-1/2 flex flex-col justify-center items-center gap-5 px-3 sm:px-5 xl:px-24 py-5 rounded-md border-pitahaya-grey-900"
                 onSubmit={handleSubmit(onSubmit)}
             >
                 <h2 className=''>Send us a message</h2>
