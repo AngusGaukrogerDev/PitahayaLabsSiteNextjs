@@ -9,6 +9,7 @@ import { Inter } from "next/font/google";
 import { getCalApi } from "@calcom/embed-react";
 import { useEffect } from "react";
 import BookACallStickyButton from "@/components/bookACallButton";
+import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 
