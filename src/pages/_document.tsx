@@ -4,6 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
+        <title>Pitahaya Labs - Software Development Services for EdTech Startups</title>
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
@@ -19,7 +20,7 @@ export default function Document() {
         <meta property="og:title" content="Pitahaya Labs - Software Development Services for EdTech Startups"/>
         <meta property="og:description" content="Craft an app that your students will love! Pitahaya Labs specializes in building bespoke learning platforms for EdTech Startups, leveraging modern technologies and AI."/>
         <meta property="og:image" content="/path-to-your-image.jpg"/>
-        <meta property="og:url" content="https://www.yourwebsite.com"/>
+        <meta property="og:url" content="https://www.pitahayalabs.com"/>
         
         <meta name="twitter:card" content="/favicon-32x32.png"/>
         <meta name="twitter:title" content="Pitahaya Labs - Software Development Services for EdTech Startups"/>
