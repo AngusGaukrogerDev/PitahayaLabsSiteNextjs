@@ -14,7 +14,7 @@ export default function Document() {
         <meta name="theme-color" content="#FBFEFB"/>
 
         <meta name="description" content="Pitahaya Labs specializes in building bespoke learning platforms for EdTech Startups, leveraging modern technologies and AI. Craft an app that your students will love!"/>
-        <meta name="keywords" content="EdTech Startups, Learning Platforms, Software Development, AI, Web Application, Next.js"/>
+        <meta name="keywords" content="EdTech Startups, Learning Platforms, Software Development, AI, Web Application, Next.js, EdTech, EduTech"/>
         <meta name="author" content="Pitahaya Labs"/>
         
         <meta property="og:title" content="Pitahaya Labs - Software Development Services for EdTech Startups"/>
