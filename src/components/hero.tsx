@@ -16,7 +16,7 @@ const Hero = () => {
                     <img className="hidden md:block xl:hidden" src="https://store.brth.uk/pitahaya/patternrightcornertablet.png" />
 
                     {/* Mobile */}
-                    <img className="block sm:hidden" src="https://store.brth.uk/pitahaya/patternrightcornermobile.png" />
+                    <img className="block sm:hidden" src="https://store.brth.uk/pitahaya/patternrightcornertablet.png" />
                 </div>
                 <div className="h-screen w-full xl:w-2/3 px-5 md:px-28 lg:px-32 xl:px-44 gap-4 xl:gap-7 flex flex-col justify-center items-center text-center sm:text-center sm:items-center">
                     <h1 className="text-pitahaya-black hidden">Software Development Services for EdTech Start-ups</h1>
