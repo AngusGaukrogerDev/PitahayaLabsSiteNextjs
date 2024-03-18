@@ -2,16 +2,16 @@ import React, { useState, useEffect } from "react";
 import NavigationButton from "./navigationButton";
 import Link from "next/link";
 
-const Navbar: React.FC = () => {
+const NavbarHero: React.FC = () => {
     const [navVisibility, setNavVisibility] = useState(false);
 
     const handleNavVisibility = () => {
-        setNavVisibility(true);
+        setNavVisibility(!navVisibility);
     };
 
     useEffect(() => {
         const handleScroll = () => {
-            if (window.scrollY > window.innerHeight * 0.8) {
+            if (window.scrollY > window.innerHeight * 0.01) {
                 setNavVisibility(true);
             } else {
                 setNavVisibility(false);
@@ -27,8 +27,7 @@ const Navbar: React.FC = () => {
 
     return (
         <nav
-            className={`fixed w-full h-20 md:h-20 flex flex-row justify-between xl:justify-between items-center bg-pitahaya-white text-pitahaya-black px-5 xl:px-24  py-2  z-10 ${
-                navVisibility ? "" : "hidden"
+            className={`absolute top-0 w-full h-20 md:h-20 flex flex-row justify-between xl:justify-between items-center bg-pitahaya-ligh-grey text-pitahaya-black px-5 xl:px-24  py-2  z-10 "
             }`}
         >
             <Link legacyBehavior href="/" as="/">
@@ -65,4 +64,4 @@ const Navbar: React.FC = () => {
     );
 };
 
-export default Navbar;
+export default NavbarHero;

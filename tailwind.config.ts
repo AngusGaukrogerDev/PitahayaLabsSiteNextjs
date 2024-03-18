@@ -13,9 +13,9 @@ const config: Config = {
       'pitahaya-grey': { DEFAULT: '#808080', 100: '#1a1a1a', 200: '#333333', 300: '#4d4d4d', 400: '#666666', 500: '#808080', 600: '#999999', 700: '#b3b3b3', 800: '#cccccc', 900: '#e6e6e6' }, 
       'pitahaya-beige': { DEFAULT: '#E3DDD5'}, 
       'pitahaya-black': { DEFAULT: '#2C2C2D'},
-      'pitahaya-white': { DEFAULT: '#FBFEFB'},
-      'pitahaya-light-grey': { DEFAULT: '#F3F1EE'},
-      'pitahaya-medium-grey': { DEFAULT: '#BFBBB6'},
+      'pitahaya-white': { DEFAULT: '#FFFFFF'},
+      'pitahaya-light-grey': { DEFAULT: '#E7E7E7'},
+      'pitahaya-medium-grey': { DEFAULT: '#A8A9AB'},
     }
     }
   },
