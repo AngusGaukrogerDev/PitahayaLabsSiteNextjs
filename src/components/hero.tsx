@@ -18,7 +18,7 @@ const Hero = () => {
                     {/* Mobile */}
                     <img className="block sm:hidden" src="https://store.brth.uk/pitahaya/patternrightcornertablet.png" />
                 </div>
-                <div className="h-screen w-full xl:w-2/3 px-5 md:px-28 lg:px-32 xl:px-44 gap-4 xl:gap-7 flex flex-col justify-center items-center text-center sm:text-center sm:items-center">
+                <div className="h-screen w-full xl:w-2/3 px-5 md:px-28 lg:px-32 xl:px-44 gap-3 xl:gap-7 flex flex-col justify-center items-center text-center sm:text-center sm:items-center">
                     <h1 className="text-pitahaya-black hidden">Software Development Services for EdTech Start-ups</h1>
                     <h2 className="text-pitahaya-black text-4xl xl:text-6xl">Software Development Services for EdTech Start-ups</h2>
                     <h3 className="text-pitahaya-black w-10/12 ">We specialise in building bespoke learning platforms for EdTech Startups, harnessing modern technologies and AI.</h3>

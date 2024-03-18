@@ -6,7 +6,7 @@ const Navbar: React.FC = () => {
     const [navVisibility, setNavVisibility] = useState(false);
 
     const handleNavVisibility = () => {
-        setNavVisibility(!navVisibility);
+        setNavVisibility(true);
     };
 
     useEffect(() => {
