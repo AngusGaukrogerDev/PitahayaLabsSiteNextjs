@@ -33,7 +33,7 @@ const Navbar: React.FC = () => {
                     </Link>
                     <Link legacyBehavior href="/#contact" as="/#contact">
                     <a  className="bg-pitahaya-black cursor-pointer text-pitahaya-white hidden xl:flex flex-col justify-center items-center text-center px-4 py-2 rounded-md  h-12 lg:w-44 hover:cursor-pointer transition duration-300 transform hover:scale-110">
-                      <h3>Book a call</h3>
+                      <h3>Get in touch</h3>
                     </a>
                 </Link>
                 </div>

@@ -12,7 +12,7 @@ const Hero = () => {
                     <h3 className="text-pitahaya-grey w-10/12 ">We specialise in building bespoke learning platforms for EdTech Startups, harnessing modern technologies and AI.</h3>
                     <Link legacyBehavior href="/#contact" as="/#contact" >
                         <button className=" bg-pitahaya-black text-pitahaya-white px-4 py-2  rounded-md w-36 sm:w-56 md:w-56 h-14  hover:cursor-pointer transition duration-300 transform hover:scale-110">
-                            <h3>Get In Touch</h3>
+                            <h3>Book a call</h3>
                         </button>                  
                     </Link>
                 </div>   
