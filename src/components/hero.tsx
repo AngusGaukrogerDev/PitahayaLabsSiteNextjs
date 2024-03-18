@@ -8,7 +8,7 @@ const Hero = () => {
         <>
             <section id="home" className="bg-pitahaya-light-grey w-full h-screen flex flex-col justify-center items-center">
                 <NavbarHero />
-                <div className="absolute bottom-5 right-5 xl:right-24 xl:bottom-10">
+                <div className="absolute bottom-2 right-5 xl:right-24 xl:bottom-10">
                     {/* Large */}
                     <img className="hidden xl:block" src="https://store.brth.uk/pitahaya/patternrightcornertablet.png" />
                     
